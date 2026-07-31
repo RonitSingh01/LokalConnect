@@ -1,5 +1,14 @@
 package com.lokalconnect.customer.navigation
 
-sealed class Routes(val route: String) {
-    data object Home : Routes("home")
+object Routes {
+
+    const val Home = "home"
+
+    const val Search = "search"
+
+    const val Categories = "categories"
+
+    const val Bookings = "bookings"
+
+    const val Profile = "profile"
 }
